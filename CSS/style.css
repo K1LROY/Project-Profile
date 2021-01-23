@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+// ------color Primary------
+Dark cyan: hsl(185, 75%, 39%) 
+Very dark desaturated blue: hsl(229, 23%, 23%) 
+Dark grayish blue: hsl(227, 10%, 46%)
+
+// ------color Neutral-------
+Dark gray: hsl(0, 0%, 59%) 
+*/
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 8.5px;
+  font-weight: normal;
+}
+
+.container {
+  background-color: hsl(185, 75%, 39%);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-width: 1440px;
+  position: relative;
+}
+
+.main-container {
+  width: 350px;
+  height: 370px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #ffffff;
+  z-index: 9999;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px hsla(229, 23%, 23%, 0.418);
+}
+
+.pattern-top {
+  position: relative;
+  bottom: 510px;
+  right: 295px;
+  z-index: 1;
+}
+
+.pattern-bottom {
+  position: absolute;
+  left: 700px;
+  top: 350px;
+  z-index: 1;
+}
+
+.pattern-card {
+  position: relative;
+  border-radius: 20px 20px 0 0;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 50px;
+  border: solid 5px;
+  border-color: white;
+  margin: 0;
+}
+
+.name {
+  margin-top: 80px;
+  font-size: 10px;
+  color: #1f1f1fcc;
+}
+
+.name span {
+  font-weight: normal;
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: hsl(0, 0%, 59%);
+}
+
+.line {
+  margin-top: 20px;
+  border: solid 0.5px;
+  color: hsl(0, 0%, 93%);
+  border-width: thin;
+}
+
+.info {
+  display: flex;
+  line-height: 0.8;
+  text-align: center;
+  justify-content: space-between;
+  margin: 20px 50px 0 50px;
+}
+
+.bottom-text {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
